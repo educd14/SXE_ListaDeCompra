@@ -46,6 +46,10 @@ export class ListacompraComponent implements OnInit {
     this.productos.push(producto5);
     this.productos.push(producto6);
   }
+
+  onClickComprar(int) {
+    this.productos[int].comprado = false;
+  }
   onClickComprado(int) {
     this.productos[int].comprado = true;
   }

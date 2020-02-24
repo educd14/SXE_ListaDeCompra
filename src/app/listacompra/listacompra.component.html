@@ -19,5 +19,5 @@
 
 <h2>Productos Comprados:</h2>
 <ng-container *ngFor="let producto of productos index as i;">
-  <li *ngIf="producto.comprado">{{producto.nombre}}</li>
+  <li *ngIf="producto.comprado">{{producto.nombre}} <button (click)="onClickComprar(i)">Volver a comprar</button></li>
 </ng-container>
