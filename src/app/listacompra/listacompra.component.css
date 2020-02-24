@@ -1,0 +1,19 @@
+table, th, td {
+  border: 1px solid black;
+}
+table {
+  border-collapse: collapse;
+}
+th, td {
+  font-family: Calibri;
+  font-size: 125%;
+  padding: 20px;
+  text-align: center;
+}
+
+li {
+  text-decoration: line-through;
+  font-family: Calibri;
+  font-size: 125%;
+  padding: 20px;
+}
