@@ -1,0 +1,15 @@
+<h1>LISTA DE LA COMPRA</h1>
+<table>
+  <table style="width: 100%; border: 1px solid black;">
+    <tr>
+      <th>Estado del Producto</th>
+      <th>Nombre</th>
+    </tr>
+    <ng-container *ngFor="let producto of productos index as i;">
+      <tr>
+        <td>A comprar </td>
+        <td>{{producto.nombre}}</td>
+      </tr>
+    </ng-container>
+  </table>
+</table>
